@@ -20,19 +20,19 @@ function Footer() {
                </div>
 
                <div className="list-links">
-                  <a href="#">
+                  <a href="/">
                      <img src={whatsapp} alt="" />
                   </a>
 
-                  <a href="#">
+                  <a href="/">
                      <img src={tikTok} alt="" />
                   </a>
 
-                  <a href="#">
+                  <a href="/">
                      <img src={instagram} alt="" />
                   </a>
 
-                  <a href="#">
+                  <a href="/">
                      <img src={facebook} alt="" />
                   </a>
 
