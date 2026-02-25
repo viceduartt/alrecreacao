@@ -112,7 +112,7 @@ function Services() {
                            <div className="image">
                               <div className="container">
 
-                                 <img className="preview" src={img1} alt="Logo" />
+                                 <img className="preview" src={img7} alt="Logo" />
                                  <div className="bg"></div>
                               </div>
 
@@ -138,7 +138,7 @@ function Services() {
                            <div className="image">
                               <div className="container">
 
-                                 <img className="preview" src={img1} alt="Logo" />
+                                 <img className="preview" src={img4} alt="Logo" />
                                  <div className="bg"></div>
                               </div>
 
@@ -164,7 +164,7 @@ function Services() {
                            <div className="image">
                               <div className="container">
 
-                                 <img className="preview" src={img1} alt="Logo" />
+                                 <img className="preview" src={img5} alt="Logo" />
                                  <div className="bg"></div>
                               </div>
 
@@ -192,7 +192,7 @@ function Services() {
                            <div className="image">
                               <div className="container">
 
-                                 <img className="preview" src={img1} alt="Logo" />
+                                 <img className="preview" src={img6} alt="Logo" />
                                  <div className="bg"></div>
                               </div>
 
@@ -244,7 +244,7 @@ function Services() {
                            <div className="image">
                               <div className="container">
 
-                                 <img className="preview" src={img1} alt="Logo" />
+                                 <img className="preview" src={img2} alt="Logo" />
                                  <div className="bg"></div>
                               </div>
 
@@ -272,7 +272,7 @@ function Services() {
                            <div className="image">
                               <div className="container">
 
-                                 <img className="preview" src={img1} alt="Logo" />
+                                 <img className="preview" src={img3} alt="Logo" />
                                  <div className="bg"></div>
                               </div>
 
@@ -298,7 +298,7 @@ function Services() {
                            <div className="image">
                               <div className="container">
 
-                                 <img className="preview" src={img1} alt="Logo" />
+                                 <img className="preview" src={img9} alt="Logo" />
                                  <div className="bg"></div>
                               </div>
 
@@ -324,7 +324,7 @@ function Services() {
                            <div className="image">
                               <div className="container">
 
-                                 <img className="preview" src={img1} alt="Logo" />
+                                 <img className="preview" src={img8} alt="Logo" />
                                  <div className="bg"></div>
                               </div>
 
@@ -352,7 +352,7 @@ function Services() {
                            <div className="image">
                               <div className="container">
 
-                                 <img className="preview" src={img1} alt="Logo" />
+                                 <img className="preview" src={img10} alt="Logo" />
                                  <div className="bg"></div>
                               </div>
 
