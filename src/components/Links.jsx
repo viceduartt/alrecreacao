@@ -1,5 +1,3 @@
-import { useGSAP } from "@gsap/react"
-import gsap from "gsap"
 
 
 
@@ -72,7 +70,7 @@ function Links() {
                   <div className="content">
                      <div className="container-img">
                         <img src="images/icons/instagram.svg" alt="" />
-                     </div>
+                     </div> 
 
                      <div className="texts">
                         <h2>Instagram</h2>

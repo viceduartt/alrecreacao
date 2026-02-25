@@ -3,9 +3,7 @@ import gsap from "gsap";
 import { TextPlugin } from "gsap/TextPlugin";
 
 
-const logo = "logo.svg"
-const happy = "images/icons/7.svg"
-const star = "images/icons/star_1.svg"
+
 
 function Hero() {
    useGSAP(() => {
@@ -131,6 +129,8 @@ function Hero() {
       }
 
       const t = setTimeout(() => {
+         clearTimeout(t)
+
          animaHero()
       }, 500)
    }, [])

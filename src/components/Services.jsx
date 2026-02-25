@@ -1,8 +1,6 @@
 import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
-import _gsap from "gsap/gsap-core"
 
-const logo = "logo.svg"
 const img1 = "images/recreacao_crista/01.svg"
 const img2 = "images/recreacao_crista/02.svg"
 const img3 = "images/recreacao_crista/03.svg"
@@ -14,8 +12,7 @@ const img8 = "images/recreacao_crista/08.svg"
 const img9 = "images/recreacao_crista/09.svg"
 const img10 = "images/recreacao_crista/10.svg"
 
-const view = "images/icons/view.svg"
-const close = "images/icons/close.svg"
+
 
 function Services() {
    useGSAP(() => {
@@ -48,6 +45,8 @@ function Services() {
       }
 
       const t = setTimeout(() => {
+         clearTimeout(t)
+
          animaServices()
       }, 500)
    }, [])

@@ -98,6 +98,8 @@ function Home() {
 		}
 
 		const t = setTimeout(() => {
+         clearTimeout(t)
+
 			animaLoading()
 			animaHeadings()
 		}, 500)

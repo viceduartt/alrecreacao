@@ -1,12 +1,8 @@
 import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
 
-const logo = "logo.svg"
 const whatsapp = "images/icons/whatsapp.svg"
-const addensa = "images/icons/addensa.svg"
-const phone = "images/icons/phone.svg"
-const email = "images/icons/email.svg"
-const send = "images/icons/send.svg"
+
 
 function Contact() {
    useGSAP(() => {
@@ -44,6 +40,7 @@ function Contact() {
       }
 
       const t = setTimeout(() => {
+         clearTimeout(t)
          animaContact()
       }, 500)
    }, [])
@@ -115,7 +112,7 @@ function Contact() {
                            </div>
                         </a>
 
-                        <a href="#" className="contact-link addens">
+                        <a href="/" className="contact-link addens">
                            <div className="group">
 
                               <div className="container">

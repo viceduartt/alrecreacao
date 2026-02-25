@@ -1,9 +1,7 @@
 import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
 
-const logo = "logo.svg"
-const feedback = "images/icons/feedback.svg"
-const play = "images/icons/play.svg"
+
 
 function Testimony() {
    const configToggle = (e) => {
@@ -123,7 +121,7 @@ function Testimony() {
 
             player.addEventListener("mouseenter", () => {
 
-               if (player.classList.contains("active") == true) {
+               if (player.classList.contains("active") === true) {
                   gsap.to(btn, {
                      duration: 0.3,
                      opacity: 1
@@ -145,7 +143,7 @@ function Testimony() {
 
             player.addEventListener("mouseleave", () => {
 
-               if (player.classList.contains("active") == false) {
+               if (player.classList.contains("active") === false) {
 
 
 
@@ -165,7 +163,7 @@ function Testimony() {
             player.addEventListener("click", () => {
 
 
-               if (player.classList.contains("active") == true) {
+               if (player.classList.contains("active") === true) {
                   configPlay(btn_player_img, btn, feedback, player, bg, video)
                   video.pause()
 
@@ -272,6 +270,8 @@ function Testimony() {
       }
 
       const t = setTimeout(() => {
+         clearTimeout(t)
+
          configPLayer()
          animaCardsVideo()
       }, 500);

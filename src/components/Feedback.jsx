@@ -43,6 +43,8 @@ function Feedback() {
       }
 
       const t = setTimeout(() => {
+         clearTimeout(t)
+
          animaFeedbacks()
       }, 500)
    }, [])

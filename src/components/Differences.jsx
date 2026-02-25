@@ -41,6 +41,8 @@ function Differences() {
       }
 
       const t = setTimeout(() => {
+         clearTimeout(t)
+
          animaCards()
       }, 599)
    }, [])

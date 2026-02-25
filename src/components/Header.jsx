@@ -163,6 +163,8 @@ function Header() {
 		}
 
 		const t = setTimeout(() => {
+         clearTimeout(t)
+
 			animaHeader()
 
 			if (window.innerWidth <= 880) {
