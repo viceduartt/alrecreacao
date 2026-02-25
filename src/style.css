@@ -231,6 +231,7 @@ header .logo-group img {
 /* ====== MAIN ====== */
 main.home {
   background: linear-gradient(-178.682deg, #FADFE8 0%, #FDEEF3 100%);
+  overflow-x: hidden;
 }
 
 .links {
@@ -399,7 +400,7 @@ main.home {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 99999999;
+  z-index: 9999900000001000;
   width: 100vw;
   height: 100vh;
   pointer-events: none;
@@ -3467,7 +3468,7 @@ footer .top {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     z-index: 999999999;
   }
   .header-monu .container {
